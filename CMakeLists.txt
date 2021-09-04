@@ -3,4 +3,4 @@ project(test_project)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(test_project main.cpp)
+add_executable(test_project main.cpp subvector.h subforwardlist_node.h subforwardlist.h)
